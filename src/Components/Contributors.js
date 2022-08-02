@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles/Contributors.css'
 
 function Contributors() {
   return (

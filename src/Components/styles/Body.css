@@ -1,7 +1,6 @@
 .body {
   /* display: flex; */
   flex-direction: column;
-
   background-color: #003845;
 }
 
@@ -11,23 +10,27 @@
 .text_container {
   box-shadow: 10px 10px;
   background-color: whitesmoke;
-  width: 700px;
-  border: 2px solid lightgray;
+  width: auto;
+  border: 2px solid black;
   border-radius: 10px;
   padding: 30px;
   margin: auto;
   margin-top: 0px;
   margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .licecap_container {
   box-shadow: 10px 10px;
   background-color: whitesmoke;
-  width: 700px;
-  border: 2px solid lightgray;
+  width: auto;
+  border: 2px solid black;
   border-radius: 10px;
   padding: 30px;
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
 }

@@ -13,7 +13,7 @@ function Header() {
         <img src={Headerpic} />
       </div>
       <div className='header_copy'>
-        <h2>End-to-End Query Testing for GraphQl</h2>
+        <h1>End-to-End Query Testing for GraphQl</h1>
       </div>
       <div className='button_container'>
         
