@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <h1>GraphErrQl Landing Page</h1>
+    <h1>Testing</h1>
   );
 }
 
