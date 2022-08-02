@@ -2,8 +2,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-      <h1>Contributors</h1>
+    <div className ='body'>
+     <h5>@Copyright. All rights reserved. 2021</h5> 
     </div>
   )
 }

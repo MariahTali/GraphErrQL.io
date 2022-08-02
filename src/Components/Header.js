@@ -1,5 +1,5 @@
 import React from 'react';
-import headerPic from '../images/headerPic.png';
+import Headerpic from '../images/Headerpic.png';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaNpm } from 'react-icons/fa';
@@ -10,20 +10,20 @@ function Header() {
   return (
     <>
       <div className='header_logo'>
-        <img src={headerPic} />
+        <img src={Headerpic} />
       </div>
       <div className='header_copy'>
         <h2>End-to-End Query Testing for GraphQl</h2>
       </div>
       <div className='button_container'>
-        {/* <FaGithub className='headerButton_icon'/> */}
-        <button className='header_buttons'>Github</button>
-        {/* <FaNpm className='headerButton_icon'/> */}
-        <button className='header_buttons'>NPM Package</button>
-        {/* <FaLinkedin className='headerButton_icon'/> */}
-        <button className='header_buttons'>LinkedIn</button>
-        {/* <BsMedium className='headerButton_icon'/> */}
-        <button className='header_buttons'>Medium Article</button>
+        
+        <button className='header_buttons'><FaGithub className='headerButton_icon'/>Github</button>
+        
+        <button className='header_buttons'><FaNpm className='headerButton_icon'/>NPM Package</button>
+        
+        <button className='header_buttons'><FaLinkedin className='headerButton_icon'/>LinkedIn</button>
+        
+        <button className='header_buttons'><BsMedium className='headerButton_icon'/>Medium Article</button>
       </div>
     </>
   );

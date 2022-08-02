@@ -29,6 +29,7 @@
 .header_buttons:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
 }
 
 .button_container {
@@ -37,4 +38,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+
+.headerButton_icon {
+  font-size: 100%;
+  padding-right: 7px;
 }
