@@ -7,9 +7,10 @@ function Header() {
       <div>
         <img src={spaceLogo} />
       </div>
-      <button>LinkedIn</button>
       <button>Github</button>
-      <button>Medium Article</button>
+      <button>NPM</button>
+      <button>LinkedIn</button>
+      <button>Article</button>
     </>
   );
 }
