@@ -1,7 +1,17 @@
+.contributor_container {
+  background-color: #003845;
+
+}
 .contributors_h1 {
   display: flex;
   justify-content: center;
   background-color: #003845;
   color: white;
   margin-top: 0px;
+}
+
+.avatar_container {
+  display: flex;
+  justify-content: center;
+  width: auto;
 }

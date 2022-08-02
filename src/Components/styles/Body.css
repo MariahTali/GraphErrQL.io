@@ -1,7 +1,8 @@
 .body {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   background-color: #003845;
+  height: auto;
 }
 
 .body > h5 {

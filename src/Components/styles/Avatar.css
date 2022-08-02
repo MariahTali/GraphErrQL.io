@@ -1,13 +1,13 @@
-.avatar_container > img {
-  width: 50px;
-  height: 50px;
+.footerContainer > img {
+  width: 160px;
+  height: 170px;
   border-radius: 50%;
   margin: 10px;
   padding: 8px;
   display: flex;
 }
 
-.avatar_Container > p {
+.footerContainer > p {
   color: whitesmoke;
   display: flex;
   font-size: 16px;
@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-.avatarIcons {
+.footerContainer > avatarIcons {
   display: flex;
   justify-content: center;
   align-content: flex-start;
@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-.avatarIcons > a:hover {
+.footerContainer > avatarIcons > a:hover {
   font-size: 120%;
 }
 

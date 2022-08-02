@@ -16,14 +16,27 @@ function Header() {
         <h1>End-to-End Query Testing for GraphQl</h1>
       </div>
       <div className='button_container'>
-        
-        <button className='header_buttons'><FaGithub className='headerButton_icon'/>Github</button>
-        
-        <button className='header_buttons'><FaNpm className='headerButton_icon'/>NPM Package</button>
-        
-        <button className='header_buttons'><FaLinkedin className='headerButton_icon'/>LinkedIn</button>
-        
-        <button className='header_buttons'><BsMedium className='headerButton_icon'/>Medium Article</button>
+        <a href='https://github.com/oslabs-beta/GraphErrQL' target='_blank'>
+          <button className='header_buttons'>
+            <FaGithub className='headerButton_icon' />
+            Github
+          </button>
+        </a>
+
+        <button className='header_buttons'>
+          <FaNpm className='headerButton_icon' />
+          NPM Package
+        </button>
+
+        <button className='header_buttons'>
+          <FaLinkedin className='headerButton_icon' />
+          LinkedIn
+        </button>
+
+        <button className='header_buttons'>
+          <BsMedium className='headerButton_icon' />
+          Medium Article
+        </button>
       </div>
     </>
   );
