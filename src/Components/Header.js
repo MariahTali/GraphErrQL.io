@@ -1,11 +1,11 @@
 import React from 'react';
-import spaceLogo from '../spaceLogo.png';
+import headerPic from '../images/headerPic.png';
 
 function Header() {
   return (
     <>
       <div>
-        <img src={spaceLogo} />
+        <img src={headerPic} />
       </div>
       <button>Github</button>
       <button>NPM</button>

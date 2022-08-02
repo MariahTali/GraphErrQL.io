@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-      <h1>Avatars will live here!</h1>
+      <h1>Contributors</h1>
     </div>
   )
 }
