@@ -15,7 +15,7 @@ function Header() {
         <img src={Headerpic} />
       </div>
       <div className='header_copy'>
-        <h1>End-to-End Query Testing for GraphQl</h1>
+        <h1>End-to-End Query Testing for GraphQL</h1>
       </div>
       <div className='button_container'>
         <a
@@ -64,7 +64,7 @@ function Header() {
         </a>
         <a
           style={{ textDecoration: 'none' }}
-          href='https://medium.com/'
+          href='https://thenewstack.io/author/jessica-wachtel/'
           target='_blank'
           rel='noreferrer'
         >

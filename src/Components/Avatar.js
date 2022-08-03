@@ -5,19 +5,32 @@ import './styles/Avatar.css';
 
 function Avatar(props) {
   return (
-    <div className='avatar_container'>
-      <div className='footerContainer'>
-        <img src={props.image} alt="avatar"/>
-        <p>{props.name}</p>
-        <div className='avatarIcons'>
-          <a href={props.github}>
-            {<FaGithub style={{ color: 'whitesmoke' }} />}
-          </a>
-          <a href={props.linkedin}>
-            {<FaLinkedin style={{ color: 'whitesmoke' }} />}
-          </a>
-        </div>
-      </div>
+    <div className='footerContainer'>
+      <img src={props.image} alt='avatar' />
+      <p>{props.name}</p>
+
+      <a
+        style={{ textDecoration: 'none' }}
+        href={props.github}
+        target='_blank'
+        rel='noreferrer'
+      >
+        {/* <button className='avatarButtons'> */}
+          <FaGithub className = "avatarButtonIcon"/>
+          
+        {/* </button> */}
+      </a>
+      <a
+        style={{ textDecoration: 'none' }}
+        href={props.linkedin}
+        target='_blank'
+        rel='noreferrer'
+      >
+        {/* <button className='avatarButtons'> */}
+          <FaLinkedin className = "avatarButtonIcon"/>
+          {/* LinkedIn
+        </button> */}
+      </a>
     </div>
   );
 }

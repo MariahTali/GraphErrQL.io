@@ -15,28 +15,28 @@ function Contributors() {
       </div>
       <div className='avatar_container'>
         <Avatar
+          image={Gwen}
+          name='Gwen Phillips'
+          github='https://github.com/gkphillips'
+          linkedin='https://www.linkedin.com/in/gwen-phillips/'
+        />
+        <Avatar
+          image={Jerald}
+          name='Jerald Stephenson'
+          github='https://github.com/JeraldStephenson'
+          linkedin='https://www.linkedin.com/in/jerald-stephenson/'
+        />
+        <Avatar
           image={Mariah}
           name='Mariah Talicuran'
           github='https://github.com/MariahTali'
           linkedin='https://www.linkedin.com/in/mariahtalicuran/'
         />
         <Avatar
-          image={Jerald}
-          name='Jerald Stephenson'
-          github='https://github.com/MariahTali'
-          linkedin='https://www.linkedin.com/in/mariahtalicuran/'
-        />
-        <Avatar
-          image={Gwen}
-          name='Gwen Phillips'
-          github='https://github.com/MariahTali'
-          linkedin='https://www.linkedin.com/in/mariahtalicuran/'
-        />
-        <Avatar
           image={Josh}
           name='Josh Merrell'
-          github='https://github.com/MariahTali'
-          linkedin='https://www.linkedin.com/in/mariahtalicuran/'
+          github='https://github.com/josh-merrell'
+          linkedin='https://www.linkedin.com/in/joshmerrell/'
         />
       </div>
       <div className ='footer'>
