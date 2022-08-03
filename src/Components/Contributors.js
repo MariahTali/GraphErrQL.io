@@ -39,7 +39,9 @@ function Contributors() {
           linkedin='https://www.linkedin.com/in/mariahtalicuran/'
         />
       </div>
-      
+      <div className ='footer'>
+     <h5>@Copyright. All rights reserved.  2021</h5> 
+    </div>
       </div>
     </>
   );

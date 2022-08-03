@@ -16,27 +16,50 @@ function Header() {
         <h1>End-to-End Query Testing for GraphQl</h1>
       </div>
       <div className='button_container'>
-        <a href='https://github.com/oslabs-beta/GraphErrQL' target='_blank'>
+        <a
+          style={{ textDecoration: 'none' }}
+          href='https://github.com/oslabs-beta/GraphErrQL'
+          target='_blank'
+          rel='noreferrer'
+        >
           <button className='header_buttons'>
             <FaGithub className='headerButton_icon' />
             Github
           </button>
         </a>
-
-        <button className='header_buttons'>
-          <FaNpm className='headerButton_icon' />
-          NPM Package
-        </button>
-
-        <button className='header_buttons'>
-          <FaLinkedin className='headerButton_icon' />
-          LinkedIn
-        </button>
-
-        <button className='header_buttons'>
-          <BsMedium className='headerButton_icon' />
-          Medium Article
-        </button>
+        <a
+          style={{ textDecoration: 'none' }}
+          href='https://npmjs.com/org/grapherrql'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <button className='header_buttons'>
+            <FaNpm className='headerButton_icon' />
+            NPM Package
+          </button>
+        </a>
+        <a
+          style={{ textDecoration: 'none' }}
+          href='https://linkedin.com/company/grapherrql'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <button className='header_buttons'>
+            <FaLinkedin className='headerButton_icon' />
+            LinkedIn
+          </button>
+        </a>
+        <a
+          style={{ textDecoration: 'none' }}
+          href='https://medium.com/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <button className='header_buttons'>
+            <BsMedium className='headerButton_icon' />
+            Medium Article
+          </button>
+        </a>
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Body.css';
+import demo from '../images/demo.gif'
 
 function Body() {
   return (
@@ -17,9 +18,12 @@ function Body() {
           viewing and rapid development- all in a fun user interface!
         </p>
       </div>
-      <div className="licecap_container">
+      <div className="demo_container">
         <h1>Check it out!</h1>
-        <p>Insert licecap gifs here</p>
+        
+        <div className="demo">
+        <img src={demo} alt="demo" />
+        </div>
       </div>
     </div>
   );
