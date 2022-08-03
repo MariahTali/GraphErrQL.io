@@ -23,6 +23,16 @@
 }
 
 .demo_container {
+  display: flex;
+  justify-content: center;
+  color: white;
+ 
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+  box-sizing: content-box;
   box-shadow: 10px 10px;
   background-color: whitesmoke;
   width: auto;
@@ -34,9 +44,4 @@
   margin-bottom: 10px;
   margin-right: 50px;
   margin-left: 50px;
-}
-
-.demo {
-  box-sizing: content-box;
-width: 100%;
 }

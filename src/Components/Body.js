@@ -19,13 +19,13 @@ function Body() {
         </p>
       </div>
       <div className="demo_container">
-        <h1>Check it out!</h1>
-        
+        <h1>Check out this demo!</h1>
+        </div>
         <div className="demo">
         <img src={demo} alt="demo" />
         </div>
       </div>
-    </div>
+    
   );
 }
 

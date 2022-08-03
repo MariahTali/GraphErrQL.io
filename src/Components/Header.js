@@ -4,6 +4,8 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaNpm } from 'react-icons/fa';
 import { BsMedium } from 'react-icons/bs';
+import {GiSpellBook} from 'react-icons/gi';
+
 import './styles/Header.css';
 
 function Header() {
@@ -58,6 +60,17 @@ function Header() {
           <button className='header_buttons'>
             <BsMedium className='headerButton_icon' />
             Medium Article
+          </button>
+        </a>
+        <a
+          style={{ textDecoration: 'none' }}
+          href='https://medium.com/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <button className='header_buttons'>
+            <GiSpellBook className='headerButton_icon' />
+            TheNewStack.io Article
           </button>
         </a>
       </div>
