@@ -17,7 +17,7 @@ function Body() {
           in all stages of frontend query development. This easy-to-use npm
           package integrates into host applications and allows for improved data
           viewing and rapid development- all in a fun user interface!<br></br><br></br>
-          GraphErrQL is maintained by the tech-accelerator Open Source Labs(opensourcelabs.io)
+          GraphErrQL is an Open Source Product developed under tech accelerator OS Labs(opensourcelabs.io)
         </p>
       </div>
       <div className="demo_container">
