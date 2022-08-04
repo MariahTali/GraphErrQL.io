@@ -12,7 +12,9 @@
   display: flex;
   justify-content: center;
   background-color: #003845;
-  color: white;
+  color: whitesmoke;
+  font-family: 'Gagalin', sans-serif;
+  font-size: medium;
 }
 
 .header_buttons {

@@ -1,4 +1,3 @@
-
 import './App.css';
 import Body from './components/Body';
 import Contributors from './components/Contributors';
@@ -11,7 +10,6 @@ function App() {
     <Header/>
     <Body/>
     <Contributors/>
-    
     </>
   );
 }

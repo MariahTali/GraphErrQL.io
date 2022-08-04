@@ -3,9 +3,11 @@
 }
 .contributors_h1 {
   display: flex;
+  font-family: 'Gagalin', sans-serif;
+  font-size: large;
   justify-content: center;
   background-color: #003845;
-  color: white;
+  color: whitesmoke;
   margin-top: 0px;
 }
 

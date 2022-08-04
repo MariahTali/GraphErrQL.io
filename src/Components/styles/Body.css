@@ -7,8 +7,13 @@
 
 .text_container > h1 {
   color: black;
+  font-family: 'Gagalin', sans-serif;
+  font-size: xxx-large;
 }
 .text_container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   box-shadow: 10px 10px;
   background-color: whitesmoke;
   width: auto;
@@ -20,12 +25,19 @@
   margin-bottom: 20px;
   margin-right: 50px;
   margin-left: 50px;
+  font-family: 'Gagalin', sans-serif;
+  font-size: large;
 }
 
 .demo_container {
   display: flex;
   justify-content: center;
-  color: white;
+}
+
+.demo_container > h1 {
+  color: whitesmoke;
+  font-family: 'Gagalin', sans-serif;
+  font-size: xx-large;
 }
 
 .demo {
