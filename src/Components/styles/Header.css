@@ -2,6 +2,10 @@
   display: flex;
   background-color: #003845;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* object-fit: contain; */
+  height: 250px;
 }
 
 .header_copy {

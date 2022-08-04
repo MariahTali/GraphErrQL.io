@@ -1,5 +1,6 @@
 import React from 'react';
 import Headerpic from '../images/Headerpic.png';
+import LandPageLogo from '../images/LandPageLogo.gif';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaNpm } from 'react-icons/fa';
@@ -12,7 +13,7 @@ function Header() {
   return (
     <>
       <div className='header_logo'>
-        <img src={Headerpic} />
+        <img src={LandPageLogo} />
       </div>
       <div className='header_copy'>
         <h1>End-to-End Query Testing for GraphQL</h1>
