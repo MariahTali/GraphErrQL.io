@@ -5,8 +5,8 @@
   height: auto;
 }
 
-.body > h5 {
-  color: white;
+.text_container > h1 {
+  color: black;
 }
 .text_container {
   box-shadow: 10px 10px;
