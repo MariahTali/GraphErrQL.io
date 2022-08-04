@@ -5,7 +5,7 @@ import './styles/Avatar.css';
 
 function Avatar(props) {
   return (
-    <div className='footerContainer'>
+    <div className='avatarContainer'>
       <img src={props.image} alt='avatar' />
       <p>{props.name}</p>
 
@@ -15,10 +15,10 @@ function Avatar(props) {
         target='_blank'
         rel='noreferrer'
       >
-        {/* <button className='avatarButtons'> */}
+        <button className='avatarButtons'>
           <FaGithub className = "avatarButtonIcon"/>
-          
-        {/* </button> */}
+          Github
+        </button>
       </a>
       <a
         style={{ textDecoration: 'none' }}
@@ -26,10 +26,10 @@ function Avatar(props) {
         target='_blank'
         rel='noreferrer'
       >
-        {/* <button className='avatarButtons'> */}
+        <button className='avatarButtons'>
           <FaLinkedin className = "avatarButtonIcon"/>
-          {/* LinkedIn
-        </button> */}
+          LinkedIn
+        </button>
       </a>
     </div>
   );
