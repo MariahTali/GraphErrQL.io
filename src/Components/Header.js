@@ -54,10 +54,11 @@ function Header() {
         </a>
         <a
           style={{ textDecoration: 'none' }}
-          href='https://medium.com/'
+          href='https://medium.com/@gkphillips/introducing-grapherrql-22d877a8f353'
           target='_blank'
           rel='noreferrer'
         >
+          
           <button className='header_buttons'>
             <BsMedium className='headerButton_icon' />
             Medium Article
