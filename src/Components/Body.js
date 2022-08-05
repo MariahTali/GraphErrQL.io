@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/Body.css';
-import demo from '../images/demo.gif'
+import demo from '../images/newDemo.gif'
 
 function Body() {
   return (
