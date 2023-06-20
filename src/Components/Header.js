@@ -1,5 +1,4 @@
 import React from 'react';
-import Headerpic from '../images/Headerpic.png';
 import LandPageLogo from '../images/LandPageLogo.gif';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
