@@ -65,7 +65,7 @@ function Header() {
         </a>
         <a
           style={{ textDecoration: 'none' }}
-          href='https://thenewstack.io/author/jessica-wachtel/'
+          href='https://thenewstack.io/grapherrql-provides-much-needed-context-for-graphql-errors/'
           target='_blank'
           rel='noreferrer'
         >
